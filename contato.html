@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Site Modelo</title>
+	
+	<!--Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!--CSS-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!--Custom CSS-->
+	<style>
+
+		body {
+			line-height: 1.5;
+			font-size: 12px;
+		 	font-family: Helvetica;
+		}
+
+		.chip {
+		  height: 50px;
+		  font-size: 25px;
+		  line-height: 50px;
+		  background-color: white;
+		  color: #330000;
+		}
+
+		.chip img {
+		  float: left;
+		  margin-right: 10px;
+		  height: 50px;
+		  width: 50px;
+		}
+
+		.carousel .item {
+		  height: 300px;
+		}
+
+		.item img {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    min-height: 300px;
+		}
+	</style>
+
+</head>
+<body>
+
+<!-- CABEÇALHO -->
+
+<div class="navbar-fixed hoverable">
+	<nav style="background-image: linear-gradient(to bottom, #FF0000, #330000)">
+	    <div class="nav-wrapper container">
+	      <a href="index.html" class="brand-logo"><img src="img/home.png" alt="brandLogo" style="max-height: 40px; margin-top: 12px"></a>
+	      <a href="#" data-target="mobile-demo" class="sidenav-trigger left"><i class="material-icons">menu</i></a>
+	      <ul class="right hide-on-med-and-down">
+	        <li><a href="depoimentos.html">DEPOIMENTOS</a></li>
+		    <li><a href="contato.html">CONTATO</a></li>
+		    <li><a href="faq.html">FAQ</a></li>
+	      </ul>
+		</div>
+	</nav>
+</div>
+		<ul class="sidenav" id="mobile-demo" style="background-color: #990000">
+		    	<li><a href="depoimentos.html" style="background-color: #660000; color: white">Depoimentos</a></li>
+			    <li><a href="contato.html" style="background-color: #990000; color: white">Contato</a></li>
+			    <li><a href="faq.html" style="background-color: #660000; color: white">FAQ</a></li>
+		</ul>
+
+<!-- INTRO -->
+
+<div class="row">
+
+	<div class="center col s12 red darken-4">
+		<h1 style="color: white">Sessão: Contato</h1>
+    </div>
+
+</div>    
+
+<!-- DIV ROW 2 -->
+
+
+<div class="row center container" style="padding: 20px">
+
+	    <div class="chip">
+		    <img src="img/depoFoto.png" alt="Contact Person">
+		    User
+	  	</div>
+	  	<br> <br>
+	  	<div class="col l3 s6 center-align valign-wrapper white-text" style="background-color: #990000">
+	  		<i class="material-icons left" style="padding-left: 43px">contact_phone</i>
+	  		<p>991000416</p>
+	  	</div>
+	  	<div class="col l3 s6 red center-align valign-wrapper">
+	  		<i class="material-icons left" style="padding-left: 43px">contact_phone</i>
+	  		<p>991000416</p>
+	  	</div>
+	  	<div class="col l3 s6 center-align valign-wrapper white-text" style="background-color: #990000">
+	  		<i class="material-icons left" style="padding-left: 43px">contact_phone</i>
+	  		<p>991000416</p>
+	  	</div>
+	  	<div class="col l3 s6 red center-align valign-wrapper">
+	  		<i class="material-icons left" style="padding-left: 43px">contact_phone</i>
+	  		<p>991000416</p>
+	  	</div>
+</div>
+
+
+
+
+
+
+<!-- RODAPÉ -->
+
+<footer class="page-footer" style="background-color: #330000">
+
+          <div class="container">
+            <div class="row">
+
+              <div class="col l8 s12">
+                <h5 class="white-text">Partners Depoiments</h5>
+	                <p>
+	                	"Depoimento 1"
+	                	<br>
+	                	<b>Mario - 09/09/2019</b>
+	                	<hr>
+	                </p>
+	                <p>
+	                	"Depoimento 2"
+	                	<br>
+	                	<b>João - 09/09/2019</b>
+	                	<hr>
+	                </p>
+	                <p>
+	                	"Depoimento 3"
+	                	<br>
+	                	<b>Lucas - 09/09/2019</b>
+	                	<hr>
+	                </p>
+              </div>
+
+              <div class="col l4 s12">
+                <h5 class="white-text">Services</h5>
+                <ul>
+                  <li>•  <a class="white-text" href="#!">First One</a></li>
+                  <li>•  <a class="white-text" href="#!">Second One</a></li>
+                  <li>•  <a class="white-text" href="#!">Third One</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="footer-copyright" style="background-color: #990000">
+            <div class="container center-align">
+            Todos os direitos reservados &copy 2019
+            </div>
+          </div>
+
+</footer>
+
+	<!--Jquery-->
+	
+	<script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous">
+	</script>
+	
+	<!--JS-->
+	
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+	</script>
+
+	<!--Custom JS-->
+
+	<script>
+	$(document).ready(function(){
+
+	    //Menu Mobile
+	    $('.sidenav').sidenav();
+	   	
+	   	//Carousel
+	   	  $('.carousel.carousel-slider').carousel({
+		    fullWidth: true,
+		    indicators: true,
+		    duration: 20,
+		  });
+
+		//Carousel NEXT
+		$('.next').click(function(){
+			$('.carousel').carousel('next');
+		})
+
+		//Carousel PREVIOUS
+		$('.prev').click(function(){
+			$('.carousel').carousel('prev');
+		})
+
+	});
+	</script>
+</body>
+</html>
